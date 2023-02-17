@@ -10,5 +10,6 @@ public class Ex4 {
         int soma = num1 + num2;
 
         System.out.println("Soma: " + soma);
+        scan.close();
     }
 }

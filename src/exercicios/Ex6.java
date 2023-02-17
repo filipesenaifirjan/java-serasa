@@ -13,6 +13,7 @@ public class Ex6 {
         int sucessor = numero + 1;
         System.out.println("O antecessor de " + numero + " é " + antecessor);
         System.out.println("O sucessor de " + numero + " é " + sucessor);
+        scanner.close();
     }
 }
 
