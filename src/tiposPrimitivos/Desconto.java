@@ -1,6 +1,7 @@
+package tiposPrimitivos;
 import java.util.Scanner;
 
-public class MinhaClasse {
+public class Desconto {
 
 /* 1 - Crie uma classe que receba o valor de um produto e a 
         porcentagem de desconto, calcule e mostre o valor do desconto 
@@ -25,7 +26,8 @@ public class MinhaClasse {
    //float valorFinal = scan.nextFloat();
    double valorFinal = valor - desconto;
    System.out.println("o produto " + valor + " com o desconto de:" + desconto +  "  é igual a: " + valorFinal + " " );
-
+   
+        scan.close();
    
     }
 }
