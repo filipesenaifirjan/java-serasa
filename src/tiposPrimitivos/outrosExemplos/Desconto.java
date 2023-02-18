@@ -1,4 +1,4 @@
-package tiposPrimitivos;
+package tiposPrimitivos.outrosExemplos;
 import java.util.Scanner;
 
 public class Desconto {

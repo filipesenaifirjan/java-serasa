@@ -1,3 +1,4 @@
+package tiposPrimitivos.outrosExemplos;
 
 
 public class BoletimEstudantil {
