@@ -7,7 +7,7 @@ public class Ex7 {
         System.out.print("Digite o nome do cliente: ");
         String nome = sc.nextLine();
 
-        System.out.print("Digite o sexo do cliente (M ou F): ");
+        System.out.print("Digite o sexo do cliente, 1 para homem e 2 para mulher: ");
         char sexo = sc.next().charAt(0);
 
         System.out.print("Digite o valor das compras do cliente: ");
@@ -15,9 +15,9 @@ public class Ex7 {
 
         double desconto = 0.0;
 
-        if (sexo == 'M') {
+        if (sexo == '1') {
             desconto = valorCompras * 0.5;
-        } else if (sexo == 'F') {
+        } else if (sexo == '2') {
             desconto = valorCompras * 0.13;
         }
 
