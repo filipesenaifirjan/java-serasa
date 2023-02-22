@@ -7,7 +7,7 @@ public class Ex7 {
         System.out.print("Digite o nome do cliente: ");
         String nome = sc.nextLine();
 
-        System.out.print("Digite o sexo do cliente, 1 para homem e 2 para mulher: ");
+        System.out.print("Sobre o cliente, digite 1 para homem e 2 para mulher: ");
         char sexo = sc.next().charAt(0);
 
         System.out.print("Digite o valor das compras do cliente: ");
